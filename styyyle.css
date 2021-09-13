@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+/* font-family: 'Fredoka One', cursive; */
+/* font-family: 'Amatic SC', cursive; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+ body{
+    overflow-x: hidden;
+}
+h1{
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    padding: 3rem 0;
+}
+.stky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.9s ;
+}
+#nav{
+    background: #ddd;
+}
+#nav, ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+li{
+    margin-right: 1.8rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-family: 'Fredoka One', cursive;
+}
+img{
+    width: 1000px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    display: block;
+    margin-top: 2.5rem;
+}
+
+p{
+    font-size: 1.2rem;
+    font-family: 'Amatic SC', cursive;
+    margin: 6rem;
+    text-align: justify;
+}
+section{
+    display: flex;
+    justify-content: right;
+    margin-right: 2rem;
+}
+.cl{
+    text-align: right;
+    position: fixed;
+    top: 1.5rem;
+    z-index: 999;
+    
+}
+span{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.kala{
+ background: #000;
+}
+.sada{
+     background: #fff;
+}
+.jnai{
+    background: #8c7ae6;
+}
+.lal{
+    background: #e84118;
+}
+
+
+ @media only screen and (max-width: 500px) {
+    #nav{
+        margin-bottom: 2.5rem ;
+    }
+#nav, ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+li{
+    margin-right: 1.2rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: 'Fredoka One', cursive;
+}
+img{
+    width: 400px;
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    display: block;
+}
+span{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 0.6rem;
+}
+.cl{
+    display: flex;
+    flex-direction: column;
+    margin-right: -1.5rem;
+}
+} 
